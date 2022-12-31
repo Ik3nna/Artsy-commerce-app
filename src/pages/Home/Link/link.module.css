@@ -1,0 +1,32 @@
+.linkContainer {
+    margin-top: 100px;
+}
+.linkContainer hr {
+    border: 0.5px solid #333333;
+}
+.linkContainer article {
+    max-width: 100%;
+    width: 80%;
+    margin: auto;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 65px;
+    color: var(--subText);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.linkContainer a {
+    display: flex;
+    align-items: center;
+}
+.linkContainer .links {
+    font-size: 81px;
+    color: #4693ED;
+}
+.linkContainer .links:hover {
+    transform: scale(1.1);
+}
