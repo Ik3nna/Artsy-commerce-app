@@ -7,6 +7,7 @@
 }
 body, html {
   position: relative;
+  overflow-x: hidden;
 }
 :root {
   --background: #ffffff;
@@ -190,7 +191,7 @@ footer .mn-footer {
 footer .mn-footer ul li {
   margin-bottom: 20px;
 }
-footer .mn-footer a {
+footer .mn-footer a, footer .mn-footer span {
   color: var(--subText);
   font-family: sans-serif;
   font-weight: 400;
@@ -227,6 +228,25 @@ footer .copywright p:nth-of-type(2) {
   header a {
     margin-right: 25px;
   }
+  footer .newsletter p:nth-of-type(1) {
+    font-size: 22.2105px;
+    line-height: 29px;
+  }
+  footer .newsletter p:nth-of-type(2) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  footer .mn-footer, footer .mn-footer a, footer .mn-footer span {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  #ft-icons {
+    font-size: 32px;
+  }
+  footer .copywright {
+    font-size: 16px;
+    line-height: 13px;  
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   header a {
@@ -237,6 +257,46 @@ footer .copywright p:nth-of-type(2) {
   li, li a {
     font-size: 20px;
     line-height: 28px;
+  }
+  footer .newsletter p:nth-of-type(1) {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  footer .newsletter p:nth-of-type(2) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  #form {
+    font-size: 14px;
+    line-height: 18px;
+    width: 400px;
+    height: 50px;
+  }
+  .invalid-feedback {
+    width: 250px;
+  }
+  footer button {
+    width: 171.63px;
+    height: 50px;
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+  footer .mn-footer, footer .mn-footer a, footer .mn-footer span {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  #ft-icons {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  footer .copywright {
+    font-size: 14px;
+    line-height: 11px;  
+  }
+  footer .copywright p:nth-of-type(2) {
+    font-size: 12px;
+    line-height: 9px;
+    font-style: italic;
   }
 }
 
